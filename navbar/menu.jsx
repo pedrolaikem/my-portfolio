@@ -24,7 +24,7 @@ function Menu() {
                 </div>
             </div>
         </div>
-        <div id='mobilemenu' className='font-inter text-lg bg-black text-white float-right text-center w-[200px] rounded-[1px] h-[200px] hidden z-1'>
+        <div id='mobilemenu' className='font-inter text-lg bg-black border-white border-2 text-white float-right text-center w-[200px] rounded-[1px] h-[200px] hidden z-1'>
             <ul className="sm:block lg:hidden">
                 <li className="mr-[20px] pb-6"><a href="/">Home</a></li>
                 <li className="mr-[20px] pb-6"><a href="#sobre">Sobre</a></li>

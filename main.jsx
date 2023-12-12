@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import Menu from './navbar/menu.jsx'
 import Content from './mainContent/content.jsx'
+import AboutMe from './about/about.jsx'
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,12 +13,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <section>
       <Content/>
     </section>
-    <section className='z-1'>
-      <div className='w-screen h-screen bg-blue-500'>
-      </div>
+    <section id='sobre'>
+      <AboutMe />
     </section>
-    <section>
+    <section id='projetos'>
       
+    </section>
+    <section id='contatos'>
+
     </section>
   </React.StrictMode>
 )
