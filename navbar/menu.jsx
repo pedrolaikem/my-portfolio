@@ -15,7 +15,7 @@ function Menu() {
                             <li className="inline mr-[20px]"><a href="/">Home</a></li>
                             <li className="inline mr-[20px]"><a href="#sobre">Sobre</a></li>
                             <li className="inline mr-[20px]"><a href="#projetos">Projetos</a></li>
-                            <li className="inline mr-[20px] pr-6 "><a href="contatos">Contatos</a></li>
+                            <li className="inline mr-[20px] pr-6 "><a href="#contatos">Contatos</a></li>
                         </ul>
                         <div className="hidden sm:block lg:hidden pr-6 decoration-white cursor-pointer" onClick={openMenu}>
                             <button><img src={MenuIcon} alt="Menu Icon" id="menuIcon"/></button>
@@ -24,12 +24,12 @@ function Menu() {
                 </div>
             </div>
         </div>
-        <div id='mobilemenu' className='font-inter text-lg bg-black border-white border-2 text-white float-right text-center w-[200px] rounded-[1px] h-[200px] hidden z-1'>
+        <div id='mobilemenu' className='font-inter text-lg bg-black border-white border-2 text-white float-right text-center w-[200px] rounded-[1px] h-[200px] hidden'>
             <ul className="sm:block lg:hidden">
                 <li className="mr-[20px] pb-6"><a href="/">Home</a></li>
                 <li className="mr-[20px] pb-6"><a href="#sobre">Sobre</a></li>
                 <li className="mr-[20px] pb-6"><a href="#projetos">Projetos</a></li>
-                <li className="mr-[20px]"><a href="contatos">Contatos</a></li>
+                <li className="mr-[20px]"><a href="#contatos">Contatos</a></li>
             </ul>
         </div>
     </nav>

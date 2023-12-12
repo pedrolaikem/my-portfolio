@@ -13,7 +13,7 @@ function AboutMe() {
                     <h3 className='font-inter md:text-[16px] text-gray-500 sm:text-[13px]'>Olá, sou Pedro Henrique Alves Lima, um desenvolvedor web com formação em direito. <br />
                         Desde meados de 2023, dedico-me diariamente ao estudo de tecnologias <br />como HTML, CSS, JavaScript, React e TailwindCSS. <br />
                         Minha incursão na programação foi motivada pela curiosidade em entender como funcionava a lógica <br />por trás de um video-game e impulsionada pela vontade de criar um simulador para um jogo, o Teamfight Tactics. <br />
-                        Busco desafios e oportunidades para aplicar minhas habilidades e contribuir para projetos significativos. 
+                        Busco desafios e oportunidades para aplicar minhas habilidades e contribuir para projetos.
                         <br />Também gosto de basquete e video-games.
                     </h3>
                 </div> 
