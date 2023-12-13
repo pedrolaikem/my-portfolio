@@ -7,8 +7,6 @@ import js from './imgs/js.png'
 import react from './imgs/react.png'
 import tailwind from './imgs/tailwindcss.png'
 
-
-
 function Content() {
    return (
     <div>
