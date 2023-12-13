@@ -24,12 +24,12 @@ function Menu() {
                 </div>
             </div>
         </div>
-        <div id='mobilemenu' className='font-inter text-lg bg-black border-white border-2 text-white float-right text-center w-[200px] rounded-[1px] h-[200px] hidden'>
+        <div id='mobilemenu' className='font-inter text-lg bg-black  text-white float-right text-center w-[150px] rounded-[1px] h-[190px] z-1 hidden'>
             <ul className="sm:block lg:hidden">
-                <li className="mr-[20px] pb-6"><a href="/">Home</a></li>
-                <li className="mr-[20px] pb-6"><a href="#sobre">Sobre</a></li>
-                <li className="mr-[20px] pb-6"><a href="#projetos">Projetos</a></li>
-                <li className="mr-[20px]"><a href="#contatos">Contatos</a></li>
+                <li className="pb-6"><a href="/">Home</a></li>
+                <li className="pb-6"><a href="#sobre">Sobre</a></li>
+                <li className="pb-6"><a href="#projetos">Projetos</a></li>
+                <li className=""><a href="#contatos">Contatos</a></li>
             </ul>
         </div>
     </nav>
@@ -47,7 +47,6 @@ function openMenu() {
         img.style.width = `45px`
         img.style.height = `30px`
         
-
     } else {
         menuMobile.classList.add('hidden')
         document.getElementById('menuIcon').src = `${MenuIcon}`

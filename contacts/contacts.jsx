@@ -2,7 +2,7 @@ import Emails from './imgs/emails-bro.svg'
 
 function Contacts() {
     return (
-        <div className="w-screen h-[62vh] border-y-black border-2">
+        <div className="w-screen h-[62vh]">
             <div className='flex flex-col items-center justify-center'>
                 <div>
                     <h1 className='text-black font-inter text-[30px] font-bold'>Entre em contato!</h1>
@@ -30,13 +30,12 @@ function copy() {
     let emailBackground = document.getElementById('txt-copy')
     let text = document.getElementById('txt-copied')
     let emailCopy = 'pedro-6-h@hotmail.com'
-    text.innerText = 'Texto Copiado!'
+    text.innerText = 'Email copiado!'
     emailBackground.style.background = 'green'
     setTimeout(function() {
         text.innerText = 'Clique para copiar'
-        emailBackground.style.background = ''
-        
-    }, 2000);
+        emailBackground.style.background = ''     
+    }, 1000);
     navigator.clipboard.writeText(emailCopy)
     
 }

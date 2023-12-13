@@ -11,16 +11,16 @@ import Contacts from './contacts/contacts.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Menu />
-    <section>
+    <section className='overflow-hidden'>
       <Content/>
     </section>
-    <section id='sobre'>
+    <section id='sobre' className='overflow-hidden'>
       <AboutMe />
     </section>
-    <section id='projetos'>
+    <section id='projetos' className='overflow-hidden'>
       <Projects />
     </section>
-    <section id='contatos'>
+    <section id='contatos' className='overflow-hidden'>
       <Contacts />
     </section>
     <footer>

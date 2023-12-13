@@ -18,13 +18,13 @@ function Projects() {
                         <div>
                             <h2 className='font-inter md:text-[16px] text-gray-500 sm:text-[13px] '>Este projeto envolve a reconstrução completa do site do Botafogo, 
                             aplicando um novo design criado <br />pela equipe composta por mim e minha amiga, Bárbara Oliveira, uma UX designer. 
-                            <br />Utilizamos a ferramenta Figma para o design, e o site foi implementado com HTML, JavaScript e TailwindCSS.
+                            <br />Utilizamos a ferramenta Figma para o design, e o site está sendo implementado com HTML, JavaScript e TailwindCSS.
                             </h2>
                         </div>
                         <div className='flex justify-center gap-12'>
                             <div className='flex gap-2 justify-center font-inter text-black font-bold'>
-                                <a href="https://github.com/pedrolaikem/project-soccer-team">Github</a>
-                                <a href="https://github.com/pedrolaikem/project-soccer-team"><i><img src={Github} alt="github-icon" /></i></a>
+                                <a href="https://github.com/pedrolaikem/project-soccer-team " target='blank'>Github</a>
+                                <a href="https://github.com/pedrolaikem/project-soccer-team" target='blank'><i><img src={Github} alt="github-icon" /></i></a>
                             </div>
                             <div className='flex gap-2 justify-center font-inter text-gray-500 font-bold'>
                                 <button className='flex gap-2'>
@@ -57,8 +57,8 @@ function Projects() {
                         </div>
                         <div className='flex justify-center gap-12'>
                             <div className='flex gap-2 justify-center font-inter text-black font-bold'>
-                                <a href="https://github.com/pedrolaikem/English-course">Github</a>
-                                <a href="https://github.com/pedrolaikem/English-course"><i><img src={Github} alt="github-icon" /></i></a>
+                                <a href="https://github.com/pedrolaikem/English-course" target='blank'>Github</a>
+                                <a href="https://github.com/pedrolaikem/English-course" target='blank'><i><img src={Github} alt="github-icon" /></i></a>
                             </div>
                             <div className='flex gap-2 justify-center font-inter text-gray-500 font-bold'>
                                 <button className='flex gap-2'>
