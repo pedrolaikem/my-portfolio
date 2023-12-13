@@ -24,7 +24,7 @@ function Menu() {
                 </div>
             </div>
         </div>
-        <div id='mobilemenu' className='font-inter text-lg bg-black  text-white float-right text-center w-[150px] rounded-[1px] h-[190px] z-1 hidden'>
+        <div id='mobilemenu' className='font-inter text-lg bg-black text-white text-center w-[150px] rounded-[1px] h-[190px] absolute right-3 hidden'>
             <ul className="sm:block lg:hidden">
                 <li className="pb-6"><a href="/">Home</a></li>
                 <li className="pb-6"><a href="#sobre">Sobre</a></li>
@@ -41,15 +41,17 @@ function Menu() {
 function openMenu() {
     let menuMobile = document.getElementById('mobilemenu')
     let img = document.getElementById('menuIcon')
+    let newPos = 'translate-x-[-48px]'
     if (menuMobile.classList.contains('hidden')) {
         menuMobile.classList.remove('hidden')
         img.src = `${ArrowDropDownIcon}`
-        img.style.width = `45px`
-        img.style.height = `30px`
-        
+        img.style.width = `26px`
+        img.style.height = `15px`
+        img.classList.add(newPos)
     } else {
         menuMobile.classList.add('hidden')
         document.getElementById('menuIcon').src = `${MenuIcon}`
+        img.classList.remove(newPos)
     }
 
     
