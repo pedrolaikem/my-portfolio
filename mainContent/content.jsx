@@ -10,19 +10,19 @@ import tailwind from './imgs/tailwindcss.png'
 function Content() {
    return (
     <div>
-        <div className="grid lg:grid-cols-2 sm:grid-cols-1 w-screen h-screen place-items-center" >
+        <div className="grid lg:grid-cols-2 sm:grid-cols-1 w-screen md:h-screen sm:h-[110vh] place-items-center" >
             <div className='flex flex-col gap-2'>
                 <div className='font-inter font-extrabold md:text-[50px] sm:text-[25px] flex'>
                     <h1>Front-End React <br />Developer 
                     </h1>
                     <h1 className='flex gap-3 items-end pb-5 relative sm:right-[70px] sm:top-3 md:right-[130px] md:top-0'>
-                        <a href="https://www.linkedin.com/in/pedro-alveslima/" target='blank'><img src={Linkedin} alt="linkedin-icon" className='w-6 items-center'/></a>
-                        <a href="https://github.com/pedrolaikem" target='blank'><img src={Github} alt="github-icon" className='w-6'/></a>
+                        <a href="https://www.linkedin.com/in/pedro-alveslima/" target='blank'><img src={Linkedin} alt="linkedin-icon" className='w-6 items-center hover:bg-blue-400'/></a>
+                        <a href="https://github.com/pedrolaikem" target='blank'><img src={Github} alt="github-icon" className='w-6 rounded-[10px] hover:bg-blue-400'/></a>
                     </h1>
                 </div>
                 <div className='flex flex-col gap-5'>
                     <h2 className='font-inter font-light text-xl sm:text-[19px] text-gray-500'> 
-                        Olá, sou o Pedro Henrique. Bacharel em direito. <br />cursando análise e desenvolvimento de sistemas.
+                        Olá, sou o Pedro Henrique. Bacharel em direito. <br />cursando análise e desenvolvimento de sistemas. <br />Utilizo HTML, CSS, JavaScript, React e TailwindCSS.
                     </h2>
                 <div className='flex items-center gap-5 w-[100%]'>
                     <div>

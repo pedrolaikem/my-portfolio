@@ -11,11 +11,11 @@ function Menu() {
                         <a href="/" className="text-white text-lg font-bold">Pedro.dev</a>
                     </div>
                     <div className="text-white font-inter">
-                        <ul className="sm:hidden lg:inline">
-                            <li className="inline mr-[20px]"><a href="/">Home</a></li>
-                            <li className="inline mr-[20px]"><a href="#sobre">Sobre</a></li>
-                            <li className="inline mr-[20px]"><a href="#projetos">Projetos</a></li>
-                            <li className="inline mr-[20px] pr-6 "><a href="#contatos">Contatos</a></li>
+                        <ul className="sm:hidden lg:inline pr-6">
+                            <li className="inline mr-[20px] hover:bg-white hover:text-black"><a href="/" >Home</a></li>
+                            <li className="inline mr-[20px] hover:bg-white hover:text-black"><a href="#sobre">Sobre</a></li>
+                            <li className="inline mr-[20px] hover:bg-white hover:text-black"><a href="#projetos">Projetos</a></li>
+                            <li className="inline mr-[20px] hover:bg-white hover:text-black"><a href="#contatos">Contatos</a></li>
                         </ul>
                         <div className="hidden sm:block lg:hidden pr-6 decoration-white cursor-pointer" onClick={openMenu}>
                             <button><img src={MenuIcon} alt="Menu Icon" id="menuIcon"/></button>

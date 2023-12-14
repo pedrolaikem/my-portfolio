@@ -2,7 +2,7 @@ import Coding from './imgs/Coding.svg'
 
 function AboutMe() {
     return (
-        <div className='flex sm:flex-col md:flex-row md:text-start w-screen md:h-[80vh] sm:h-[120vh] items-center justify-center'>
+        <div className='flex sm:flex-col md:flex-row md:text-start w-screen md:h-[80vh] sm:h-[120vh] items-center justify-center' >
             <div className='flex w-[50%] justify-center'>
                 <img src={Coding} alt="Coding-img" className='w-[500px]'/>
             </div>
@@ -21,5 +21,7 @@ function AboutMe() {
         </div>
     )
 } 
+
+
 
 export default AboutMe

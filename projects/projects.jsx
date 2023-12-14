@@ -4,7 +4,7 @@ import Links from './imgs/link.svg'
 
 function Projects() {
     return (  
-        <div className="w-screen h-screen grid place-items-center gap-[30px]">
+        <div className="lg:w-screen lg:h-screen sm:h-[150vh] grid place-items-center gap-[30px]">
             {/* Project 1 */}
             <div className="flex flex-col lg:flex-row items-center justify-center lg:ml-[80px] lg:space-x-[250px] gap-3">
                 <div>
@@ -23,8 +23,10 @@ function Projects() {
                         </div>
                         <div className='flex justify-center gap-12'>
                             <div className='flex gap-2 justify-center font-inter text-black font-bold'>
-                                <a href="https://github.com/pedrolaikem/project-soccer-team " target='blank'>Github</a>
-                                <a href="https://github.com/pedrolaikem/project-soccer-team" target='blank'><i><img src={Github} alt="github-icon" /></i></a>
+                                <button className='hover:bg-blue-400 rounded-[10px] flex gap-2'>
+                                    <a href="https://github.com/pedrolaikem/project-soccer-team "target='blank'>Github</a>
+                                    <a href="https://github.com/pedrolaikem/project-soccer-team" target='blank'><i><img src={Github} alt="github-icon"/></i></a>
+                                </button>
                             </div>
                             <div className='flex gap-2 justify-center font-inter text-gray-500 font-bold'>
                                 <button className='flex gap-2'>
@@ -57,8 +59,10 @@ function Projects() {
                         </div>
                         <div className='flex justify-center gap-12'>
                             <div className='flex gap-2 justify-center font-inter text-black font-bold'>
-                                <a href="https://github.com/pedrolaikem/English-course" target='blank'>Github</a>
-                                <a href="https://github.com/pedrolaikem/English-course" target='blank'><i><img src={Github} alt="github-icon" /></i></a>
+                                <button className='hover:bg-blue-400 rounded-[10px] flex gap-2'>
+                                    <a href="https://github.com/pedrolaikem/English-course" target='blank'>Github</a>
+                                    <a href="https://github.com/pedrolaikem/English-course" target='blank'><i><img src={Github} alt="github-icon" className='hover:bg-blue-400 rounded-[10px]'/></i></a>
+                                </button>
                             </div>
                             <div className='flex gap-2 justify-center font-inter text-gray-500 font-bold'>
                                 <button className='flex gap-2'>
