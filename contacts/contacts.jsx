@@ -46,6 +46,7 @@ function Contacts() {
 function Copy() {
     
     //variables
+    let emailBackground = document.getElementById('txt-copy')
     let text = document.querySelector('#txt-copied')
     let emailCopy = 'pedro-6-h@hotmail.com'
     let img = document.querySelector('#img')
@@ -58,17 +59,23 @@ function Copy() {
     //But it will work out just as it should
     //The img will also be replaced with Emails 2, which is the green version of the image.
     //It will be added an bounce animation.
+
+    emailBackground.style.background = 'green'
     const translationKey = i18n.language === 'en' ? 'description.copied' : 'description.copied'
     text.innerText = t(translationKey)
     img.src = `${Emails2}`
     img.classList.add('animate-bounce')
+    
 
-    //After 1500 ms, the copy function will return to its original state.
+    //After 1500 ms, the copy function will return to before the click point.
     //If the language is strictly equal to 'en', the translationKey variable will receive 'description.copy' which is the default value
     //Also the image will go back to the normal img and the animation will be removed.
+
+    
     setTimeout(function() {
         const translationKey = i18n.language === 'en' ? 'description.copy' : 'description.copy'
         text.innerText = t(translationKey)
+        emailBackground.style.background =''
         img.src = `${Emails}`
         img.classList.remove('animate-bounce')
     }, 1500);
