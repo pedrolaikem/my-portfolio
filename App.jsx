@@ -19,7 +19,7 @@ function App (){
     return (
     <div>
         <Menu />
-        <div className='sm: px-3 lg:px-0'>
+        <div className='sm:px-3 lg:px-0'>
             <section className='overflow-hidden'>
                 <Content/>
             </section>
