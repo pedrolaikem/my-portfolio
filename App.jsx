@@ -28,6 +28,7 @@ function App (){
             </section>
             <section id='projetos' className='overflow-hidden '>
                 <Projects />
+                Teste
             </section>
             <section id='contatos' className='overflow-hidden '>
                 <Contacts />
